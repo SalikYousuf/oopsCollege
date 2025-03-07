@@ -25,7 +25,7 @@ int main()
         cout << "30 days in this month." << endl;
         break;
     case 2:
-        cout << "29 days in this month (Leap Year considered)." << endl;
+        cout << "28 days in this month (for leapyear 29)." << endl;
         break;
     default:
         cout << "Invalid month!" << endl;

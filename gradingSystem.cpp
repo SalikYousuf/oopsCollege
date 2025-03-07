@@ -11,15 +11,15 @@ int main()
     {
         cout << "Grade: A" << endl;
     }
-    else if (score >= 80)
+    else if (score >= 80 && score < 90)
     {
         cout << "Grade: B" << endl;
     }
-    else if (score >= 70)
+    else if (score >= 70 && score < 80)
     {
         cout << "Grade: C" << endl;
     }
-    else if (score >= 60)
+    else if (score >= 60 && score < 70)
     {
         cout << "Grade: D" << endl;
     }
